@@ -1,3 +1,7 @@
+# This is a simple and fun game to play for a while
+# This game guesses the final result after performing some operations on your assumed number
+# Lets play the game and get excited
+
 import random
 from pygame import encode_file_path
 secret_num = 1
