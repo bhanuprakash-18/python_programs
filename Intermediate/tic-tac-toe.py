@@ -11,6 +11,7 @@ flag = "X"
 
 
 def checklogic(i):
+    global choice
     if ((board["topL"] == board["topM"]) and (board["topM"] == board["topR"])):
         if board["topM"] == "X" :
             print("Wins X")
@@ -72,7 +73,7 @@ def checklogic(i):
     if i==8:
         print("TIE")
         choice = int(input("Enter 1 to play again 0 to exit "))
-        return choice
+    
 
     
 choice =1
@@ -95,6 +96,6 @@ while(choice):
             flag = "O"
         else:
             flag = "X"
-        choice = checklogic(i)
+        checklogic(i)
 
 
