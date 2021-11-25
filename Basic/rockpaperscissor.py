@@ -60,8 +60,3 @@ while True:
         print("*** Scissor vs \n Rock ***")
         print("You lose")  
         display_score()
-    
-
-
-
-
